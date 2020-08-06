@@ -49,86 +49,171 @@ float: left;
   
 }
 
-.Aboutmetext{
-position: absolute;
-text-align: left;
-padding-left: 500px;
-padding-right: 100px;
-padding-top: 150px;
 
+.profile{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 100px;
 }
-
 
 .profilepic{
-  position: absolute;
-  float: left;
-  padding-left: 40px;
-  padding-top: 125px;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
 
-}
+  order: 1;
+  flex: 1;
+  }
+  
+  .aboutme{
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  order: 2;
+  flex: 1;
+  }
+  
 
+.row1{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;}
 
+.Weekboxes1{
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 20px;
+  order: 1;
+  flex: 1;
+  }
+  
+  .Weekboxes2{
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 20px;
+  order: 2;
+  flex: 1;
+  }
+  
+  .Weekboxes3{
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 20px;
+  order: 3;
+  flex: 1;
+  }
 
+  .Weekboxes4{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 20px;
+    order: 4;
+    flex: 1;
+    }
 
-html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+    .row2{
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+    }
+    
 
+    .Weekboxes5{
+      background-color: white;
+      margin: 20px;
+      padding: 20px;
+      order: 3;
+      flex: 1;
+      }
+    
+      .Weekboxes6{
+        background-color: white;
+        margin: 20px;
+        padding: 20px;
+        order: 4;
+        flex: 1;
+        }
+      .Weekboxes7{
+      background-color: white;
+      margin: 20px;
+      padding: 20px;
+      order: 3;
+      flex: 1;
+      }
+    
+      .Weekboxes8{
+        background-color: white;
+        margin: 20px;
+        padding: 20px;
+        order: 4;
+        flex: 1;
+        }
+    
+        .Week2container{
+          display: flex;
+          justify-content: space-between;
+          margin: 20px;
+        }
 
-.column{
-  padding:0 8px
-}
-
-
-@media only screen and (min-width:600px){
-  .column.aboutmecolumn,.half{width:50%}
-
-.column,.half{float:left;width:100%}
-
-.container:after,
-.container:before,
-
-.relfectionpadding{padding-top:600px;
-                 padding-bottom:100px;
-
-}
+    .week2pic1{
+      background-color: white;
+      margin: 20px;
+      padding: 20px;
       
-.column.Weekboxes{
-  width:24.99999%;
-}
-
-
-
-.tut1text{
-  position: absolute;
-  text-align: left;
-  padding-left: 500px;
-  padding-right: 100px;
-  padding-top: 150px;
-}
+      order: 1;
+      flex: 1;
+      }
+      
+      .week2pic2{
+      background-color: white;
+      margin: 20px;
+      padding: 20px;
   
-
-  
-  .week2-container {
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    grid-gap: 10px;
+      order: 2;
+      flex: 1;
+      }
+      
+      .week2pic3{
+      background-color: white;
+      margin: 20px;
+      padding: 20px;
+      
+      order: 3;
+      flex: 1;
+      }
+    
    
-    padding: 10px;
-    margin-top:900px;
-  }
   
+  @media (max-width: 600px){
+    
 
-  .tut2text{
+  
+    .row1{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    }
+   
 
-    position: absolute;
-    text-align: left;
-    padding-top: 600px;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
+      .row2{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        }
 
-  .tut1pic{
-    position: absolute;
-    float: left;
-    padding-left: 40px;
-    padding-top: 200px;
-  }
+        .profile{
+          display: flex;
+          flex-direction: column;
+          margin: 50px;
+          }
+
+          .Week2container
+          {
+            display: flex;
+            flex-direction: column;
+            margin: 50px;
+            }
