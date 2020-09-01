@@ -12,7 +12,7 @@ h5{
   background-color: #FFF0E2;
   margin-top: -18px;
   padding: 20px;
-  
+ 
 }
 
 .topnav a {
@@ -23,8 +23,6 @@ h5{
   text-decoration: none;
   font-size: 17px;
 }
-
-
 
 .topnav a:hover {
   background-color: white;
@@ -153,7 +151,7 @@ float: left;
         flex: 1;
         }
     
-        .Week2container{
+        .Weekcontainer{
           display: flex;
           justify-content: space-between;
           margin: 20px;
@@ -185,7 +183,7 @@ float: left;
       order: 3;
       flex: 1;
       }
-    
+
    
   
   @media (max-width: 600px){
@@ -211,7 +209,7 @@ float: left;
           margin: 50px;
           }
 
-          .Week2container
+          .Weekcontainer
           {
             display: flex;
             flex-direction: column;
